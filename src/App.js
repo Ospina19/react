@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 function Saludo(props) {
   const idioma = props.idioma;
   const nombre = props.nombre;
-  const saludo = idioma === "inglés" ? "Hello" : "Hola" ;
+  const saludo = idioma === "ingles" ? "Hello" : "Hola" ;
   return <h1>{saludo}, {nombre}!</h1>
 }
 
@@ -10,9 +10,9 @@ function App() {
   return (
     <Contenedor>
       <div>
-        <Saludo nombre="Juan" idioma="inglés" />
-        <Saludo nombre="Pedro" idioma="español" />
-        <Saludo nombre="Sandra" idioma="esapñol" />
+        <Saludo nombre="Juan" idioma="ingles" />
+        <Saludo nombre="Pedro" idioma="espanol" />
+        <Saludo nombre="Sandra" idioma="esapnol" />
       </div>
       <Contador></Contador>
     </Contenedor>
